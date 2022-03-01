@@ -20,9 +20,9 @@ So in the first place, you'll need to get a list of the occurencies of each data
 
 Yes, in order to get the occurencies of each characters, we could just implement a list of 255 elements containing all ascii characters and their respective occurency but that would be really impractical.</br>
 Furthermore, we would not all that characters most of the time.</br>
-Consequently, considering the fact we are coding in C, lists are fixed sizes so we have to determinate the size of the memory to alloc to the list.
-
+Consequently, considering the fact we are coding in C, lists are fixed sizes so we have to determinate the size of the memory to alloc to the list.</br>
 We are going to create a list of the occurency_list structure.
+
 ```c
 typedef struct node {
     int occurency;
@@ -38,12 +38,12 @@ typedef struct occurency_list {
 } occurency_list_t;
 ```
 
-*c* is the character.
-*occurency* is the occurency of the character in the data.
-*in_list* is something we gonna use later.
-Just set it to 0 for the time being.
-**right* is the right child node in the future binary tree.
-Same for **left* but for the left child.
+*c* is the character.</br>
+*occurency* is the occurency of the character in the data.</br>
+*in_list* is something we gonna use later.</br>
+Just set it to 0 for the time being.</br>
+**right* is the right child node in the future binary tree.</br>
+Same for **left* but for the left child.</br>
 
 After that, we get the data into the list.
 
@@ -75,16 +75,16 @@ Alright, now should have the binary value setup for each node.
 
 #### Encrypt
 
-This part is pretty tricky. Indeed, we're gonna use some bit shifting.
-But why?
-First, you have to know that ascii character are signed and encoded on 7 bits. Bits are 0 or 1.
-So in ascii : '0' = 48 = 0011 0000
+This part is pretty tricky. Indeed, we're gonna use some bit shifting.</br>
+But why?</br>
+First, you have to know that ascii character are signed and encoded on 7 bits. Bits are 0 or 1.</br>
+So in ascii : '0' = 48 = 0011 0000</br>
 What we would do is basicly take the ascii value of the encode value of each character and put it in a char.</br>
-Ex : '101' = 0000 0101
-We can do that multiple times :
-Taking the value we juste got, we can add '11' inside of that ascii value.
-Ex : 0000 0101 => 0001 0111
-So we just put 2 characters into an ascii value that is a character. So with that method we can fit several characters into 1.
+Ex : '101' = 0000 0101</br>
+We can do that multiple times :</br>
+Taking the value we juste got, we can add '11' inside of that ascii value.</br>
+Ex : 0000 0101 => 0001 0111</br>
+So we just put 2 characters into an ascii value that is a character. So with that method we can fit several characters into 1.</br>
 
 #### Key Encryption
 
@@ -144,7 +144,7 @@ To decompress a file
 
 ## Make it a command <a name="use"></a>
 
-If you like it, you surely want to use it anywhere in your pc right?
+If you like it, you surely want to use it anywhere in your pc right?</br>
 If that's the case, go into the repository and then execute the following commands
 
 ```bash
