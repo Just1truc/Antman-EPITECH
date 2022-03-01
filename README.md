@@ -18,8 +18,8 @@ So in the first place, you'll need to get a list of the occurencies of each data
 
 #### Get occurency of each characters
 
-Yes, in order to get the occurencies of each characters, we could just implement a list of 255 elements containing all ascii characters and their respective occurency but that would be really impractical.
-Furthermore, we would not all that characters most of the time.
+Yes, in order to get the occurencies of each characters, we could just implement a list of 255 elements containing all ascii characters and their respective occurency but that would be really impractical.</br>
+Furthermore, we would not all that characters most of the time.</br>
 Consequently, considering the fact we are coding in C, lists are fixed sizes so we have to determinate the size of the memory to alloc to the list.
 
 We are going to create a list of the occurency_list structure.
