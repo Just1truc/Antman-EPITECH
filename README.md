@@ -79,7 +79,7 @@ This part is pretty tricky. Indeed, we're gonna use some bit shifting.
 But why?
 First, you have to know that ascii character are signed and encoded on 7 bits. Bits are 0 or 1.
 So in ascii : '0' = 48 = 0011 0000
-What we would do is basicly take the ascii value of the encode value of each character and put it in a char.
+What we would do is basicly take the ascii value of the encode value of each character and put it in a char.</br>
 Ex : '101' = 0000 0101
 We can do that multiple times :
 Taking the value we juste got, we can add '11' inside of that ascii value.
