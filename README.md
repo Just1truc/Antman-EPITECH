@@ -66,9 +66,9 @@ Congratulation, the last element that have the *in_list* characteristic to 0 con
 Ok, now you have to build you're binary tree.
 
 To do so, just set a string of nothing and then browse through your tree:
--when you go to the right : add 1 at the end of the string.
--when you go to the left : add 0 at the end of the string.
--when you arrive on a node : just copy the string you currently have in the *binary* value of the node.
+- when you go to the right : add 1 at the end of the string.
+- when you go to the left : add 0 at the end of the string.
+- when you arrive on a node : just copy the string you currently have in the *binary* value of the node.
 
 Alright, now should have the binary value setup for each node.
 
@@ -97,9 +97,10 @@ The pattern used in the code is the following :
 
 #### Decryption
 
-Decrypt the key
-Transcrypt Ascii values to binary
-Decrypt the file character by character.
+steps:
+- Decrypt the key
+- Transcrypt Ascii values to binary
+- Decrypt the file character by character.
 
 ## Installation <a name="installation"></a>
 
