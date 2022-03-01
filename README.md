@@ -52,12 +52,13 @@ After that, we get the data into the list.
 With that list of elements, we are going to begin to fuse the elements into other elements to build the binary tree.
 
 Basicly, while there is more than 1 element that ave is characteristic *in_list* to 0:
-1- select and keep the id of the 2 smallest elements in the list
+
+- select and keep the id of the 2 smallest elements in the list
 ignoring the element with the *in_list* value to 1
-2- create a new node.
-3- put as the left node of that newly created node, the node of the first element and as the right node, the node of the second.
-4- Put that new node inside the pointer of the first element.
-5- Pass the *in_list* value of the second element to 1
+- create a new node.
+- put as the left node of that newly created node, the node of the first element and as the right node, the node of the second.
+- Put that new node inside the pointer of the first element.
+- Pass the *in_list* value of the second element to 1
 
 Congratulation, the last element that have the *in_list* characteristic to 0 contain as a node the head of your tree.
 
