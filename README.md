@@ -3,6 +3,10 @@
 
 The huffman is a data compression algorithm that use binary manipulation to compress data based on occurences.
 
+## Proof of quality
+
+![set_image](https://github.com/Just1truc/Antman-EPITECH/blob/main/antman_proof.png)
+
 ## Summary
 
 - [How to make one](#explanation)
