@@ -7,6 +7,8 @@ The huffman is a data compression algorithm that use binary manipulation to comp
 
 ![set_image](https://github.com/Just1truc/Antman-EPITECH/blob/main/antman_proof.png)
 
+Antman Project highest score of all time is ~70%
+
 ## Summary
 
 - [How to make one](#explanation)
