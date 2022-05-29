@@ -118,7 +118,7 @@ To use this program, you'll need to install it first.
 In order to get the program, just use the following command where you want to clone the repository :
 
 ```bash
-git clone https://github.com/Just1truc/Antman-EPITECH.git
+git clone git@github.com:Just1truc/Antman-EPITECH.git
 ```
 
 Then you can go into it and build the program
